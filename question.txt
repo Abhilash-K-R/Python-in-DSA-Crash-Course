@@ -1,0 +1,16 @@
+01 :-
+
+Product of smallest Pair:
+Case 1:
+Arr = [78,34,56,12,38]
+D = 60
+
+12+34 = 46 <= 60 return 12 x 34 =  __
+
+02 :-
+
+Rat count house:
+R -> number of rats 4
+Units -> food per rat 2
+
+Arr = [2,3,1,4,5,6]
