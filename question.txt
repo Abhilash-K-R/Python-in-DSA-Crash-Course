@@ -7,6 +7,7 @@ D = 60
 
 12+34 = 46 <= 60 return 12 x 34 =  __
 
+---------------------------------------------------------------------------------------
 02 :-
 
 Rat count house:
@@ -15,9 +16,29 @@ Units -> food per rat 2
 
 Arr = [2,3,1,4,5,6]
 
+------------------------------------------------------------------------------------
 03 :-
 
 trading find max profit
 stack S
 S=[6,7,1.2,8,5] buy at 1 and sell at 8 => 7
 S=[8,7,3,1] buy at 8 sell at 0 profit => 0
+
+------------------------------------------------------------------------------------------
+04 :-
+# Buy and Sell Stock
+# You are given an array prices where prices[i] is the price of a given stock on the ith day.
+# You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+# Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+print(bss([78,34,56,12,38]))  ->buy at min 12 and sell it at max 38 = 26
+print(bss([3,1,4,8]))          -> buy at min 1 and sell at max 8 = 7
+
+-----------------------------------------------------------------------------------------
+05 :-
+
+s = [7,5,2,1]
+l = 7 , 5x2x1 =10 -> [10]
+l = 5 , 7x2x1 = 14 -> [10,14]
+l = 2 , 7x5x1 = 35 -> [10,14,35]
+l = 1 , 7x5x2 = 70 -> [10,14,35,70]
