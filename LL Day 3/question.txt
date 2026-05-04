@@ -1,0 +1,9 @@
+
+Linked list
+
+1: detect cycle in LL
+2: merge sorted LL
+3: reverse LL
+4: addition in LL
+5: remove nth node from the end of the LL
+
