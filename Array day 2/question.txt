@@ -12,3 +12,6 @@ Max sub array
 03 :-
 
 Spiral Matrix   (54 leetcode)
+
+-------------------------------------------------------------------
+04 :- transpose of the matrix

@@ -1,3 +1,8 @@
+'''Trapping Rain Water:
+Given an array height[] of size n consisting of non-negative integers, 
+where each element represents the height of a bar and the width of each bar is 1,
+Find the total amount of water that can be trapped between the bars after it rains.'''
+
 def trap(height):
         left = 0
         right = len(height)-1
@@ -19,4 +24,4 @@ def trap(height):
                 right -=1
         return water
     
-print(trap([5,4,1,2]))
+print(trap([4,2,0,3,2,5]))
