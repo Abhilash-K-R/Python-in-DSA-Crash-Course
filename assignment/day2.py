@@ -3,6 +3,8 @@ Given an array height[] of size n consisting of non-negative integers,
 where each element represents the height of a bar and the width of each bar is 1,
 Find the total amount of water that can be trapped between the bars after it rains.'''
 
+# leetcode 42. Trapping Rain Water
+
 def trap(height):
         left = 0
         right = len(height)-1

@@ -1,4 +1,5 @@
 # Definition for a Node
+# leetcode 138. Copy List with Random Pointer
 class Node:
     def __init__(self, val, next=None, random=None):
         self.val = val

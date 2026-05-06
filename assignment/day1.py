@@ -1,3 +1,6 @@
+# This function takes an array as input and calculates the sum of elements at odd and even indices. It then returns the absolute difference between the two sums.
+# leetcode 2544. Alternating Digit Sum
+
 def abhi(arr):
     odd_sum = 0
     even_sum = 0

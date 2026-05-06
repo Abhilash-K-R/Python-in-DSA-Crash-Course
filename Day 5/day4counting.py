@@ -1,4 +1,5 @@
-# counting the number of times each character appears in a string                                                          
+# counting the number of times each character appears in a string              
+# leetcode 387. First Unique Character in a String                                            
 
 def counting(s):
     d = {}
