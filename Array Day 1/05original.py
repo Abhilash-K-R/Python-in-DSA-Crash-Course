@@ -1,4 +1,5 @@
-
+# Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+# leetcode 238. Product of Array Except Self
 
 
 def prod_itself(arr):   #[7,5,2,1]
