@@ -1,3 +1,6 @@
+# Given an array of integers, find the maximum difference between any two elements such that the larger element appears after the smaller element in the array. 
+# leetcode 121. Best Time to Buy and Sell Stock
+
 def bss(arr):   #[3,1,4,8]
     l=len(arr)
     res = 0
