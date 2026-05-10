@@ -1,5 +1,5 @@
 # Rat count house:
-
+# A city has N houses in a row. Each house has a certain number of rats. A person wants to kill R rats in total. He can kill U rats in one visit to a house. The person starts from the first house and moves to the next house until he kills R rats or more. The task is to find the index of the last house he visits.
 def rch (r,u,arr):
     if len(arr) == 0 :
         return -1

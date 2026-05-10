@@ -1,5 +1,4 @@
 # Product of Smallest Pair
-
 # def is the keyword to define a function in Python. It is used to create reusable blocks of code that perform a specific task. The syntax for defining a function is as follows:
 
 def psp (arr , d) :     #[78,34,56,12,38]
